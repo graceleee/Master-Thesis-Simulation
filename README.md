@@ -1,5 +1,5 @@
 # Master-Thesis-Simulation
-An Efficient Multicast Scheme for Mobile Networks with Reduced Feedback (Simulation)
+*An Efficient Multicast Scheme for Mobile Networks with Reduced Feedback (Simulation)*
 
 This program simulates the algorithms proposed in this [master's thesis](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22106NCTU5435071%22.&searchmode=basic&switchlang=en). The goal is to improve the throughput of [SC-PTM](https://www.3gpp.org/technologies/keywords-acronyms/1763-sc_ptm) while UEs transmit minimal feedback.
 
