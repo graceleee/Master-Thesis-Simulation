@@ -21,6 +21,12 @@ This program simulates the algorithms proposed in this [master's thesis](https:/
 
 ## Simulation
 The signal to noise ratio (SNR) of each UE is specified in the folder called SNR. Each UE calculates its own MCS in the constructor (MbitRB.txt and MCS_SNR.txt are the input files for this).
+
+The first and second inline arguments specify the eNodeB's behavior, the UEs' behavior (1_FBC or 2_FBC).
+
 The eNodeB simulates transmitting by telling each UE the MCS of the (supposedly) transmission, and the UEs, upon receiving the MCS, would return ACK and/or NAK.
 
 The output of this program is a file called UEbehavior.csv, which includes the number of UEs, the throughput in each iteration, the number of receiving UEs.
+
+## Author's note
+The explanation of the algorithms in this README is grossly incomplete, lacking what exactly 1_FBC and 2_FBC are, how the UEs behave, how the eNodeBs behave, and how they exactly tie together. I apologize for this. The master's thesis is not going to be available to the public until 2023, so I'm not exactly sure if I would violate any copyright laws by explaining the entire algorithm here. However, I would be happy to let you read the draft of the master's thesis (due to complicated reasons the only copy of the final edition of the thesis is a hardcopy in National Chiao Tung University Library, 1001 University Road, Hsinchu, Taiwan), as well as the powerpoint slides of my defense (written mostly in English, with some traditional Chinese footnotes).
