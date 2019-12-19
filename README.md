@@ -4,7 +4,7 @@
 This program simulates the algorithms proposed in this [master's thesis](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22106NCTU5435071%22.&searchmode=basic&switchlang=en). The goal is to improve the throughput of [SC-PTM](https://www.3gpp.org/technologies/keywords-acronyms/1763-sc_ptm) while UEs transmit minimal feedback.
 
 This thesis is the foundation of Grace Wensan Lee, Ting-Yu Lin, Tsern-Huei Lee, Alex C.-C. Hsu, "Simple Reduced Feedback Multicast Schemes for Mobile Networks" in *2018 International Symposium on Intelligent
-Signal Processing and Communication Systems, ISPACS 2018, November 27-30, Ishigaki Island, Okinawa, Japan* (http://www.ispacs2018.org/program.html#tTM1B-2)
+Signal Processing and Communication Systems, ISPACS 2018, November 27-30, Ishigaki Island, Okinawa, Japan* (https://ieeexplore.ieee.org/document/8923560)
 
 ## Preliminary
 * Usually in SC-PTM, either there is no feedback, or all UEs transmit their Channel Quality Indicator (CQI) to the eNodeB.
